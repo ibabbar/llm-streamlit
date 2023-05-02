@@ -1,3 +1,7 @@
 langchain
 openai
-streamlit
+chromadb
+pypdf
+tiktoken
+panel
+notebook
