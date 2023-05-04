@@ -44,7 +44,7 @@ prompt = PromptTemplate(
 memory = ConversationBufferMemory(memory_key="chat_history")
 
 llm_chain = LLMChain(
-    llm=OpenAI(openai_api_key='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'), 
+    llm=OpenAI(openai_api_key=os.environ["OPENAI_KEY"]), 
     prompt=prompt, 
     verbose=True, 
     memory=memory
