@@ -3,6 +3,7 @@ from streamlit_chat import message
 from langchain.llms import OpenAI
 from langchain import LLMChain
 from langchain.prompts.prompt import PromptTemplate
+import os
 
 # Chat specific components
 from langchain.memory import ConversationBufferMemory
