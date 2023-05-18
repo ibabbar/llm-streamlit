@@ -20,9 +20,9 @@ st.divider()
 img = image_select(
     label="Select a persona to speak to",
     images=[
-        "avatars/group1.png",
-        "avatars/group3.png",
-        "avatars/group4.png",
+        "farmer.jpeg",
+        "operations.jpeg",
+        "finance.jpeg",
         # "avatars/group5.png",
         # "avatars/group6.png",
     ],
